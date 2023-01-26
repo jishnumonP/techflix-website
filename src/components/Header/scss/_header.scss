@@ -1,0 +1,51 @@
+div.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(to right, #aa4b6b
+  , #6b6b83
+,#3b8d99  );
+  height: 20rem;
+  div.header {
+  
+    height: 3rem;
+    border-radius: 3px;
+  }
+  div.headerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    .heading {
+            color: hsl(0, 0%, 28%);
+            font-size: 50px!important;
+            font-weight: bold!important;
+            font-family: monospace;
+            letter-spacing: 7px!important;
+            cursor: pointer;
+            text-transform: uppercase;
+            background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(0, 0%, 0%) 10%, hsl(0, 0%, 96%) 30%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 10s infinite linear;
+          
+          
+          @keyframes shine {
+            0% {
+              background-position: 0;
+            }
+            60% {
+              background-position: 600px;
+            }
+            100% {
+              background-position: 600px;
+            }
+          }
+    }
+    .headingType {
+      color: aliceblue;
+    }
+  }
+}
