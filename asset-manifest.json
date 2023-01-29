@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/techflix-website/static/css/main.7c5542d3.css",
-    "main.js": "/techflix-website/static/js/main.a699a2b7.js",
+    "main.js": "/techflix-website/static/js/main.a2f01024.js",
     "static/js/787.fa7baaf0.chunk.js": "/techflix-website/static/js/787.fa7baaf0.chunk.js",
     "static/media/galaxy.png": "/techflix-website/static/media/galaxy.342622fd26568acf0c70.png",
     "static/media/web.png": "/techflix-website/static/media/web.84eccf4a67b9d3649923.png",
@@ -12,11 +12,11 @@
     "static/media/mobile.png": "/techflix-website/static/media/mobile.d8cc87f7107d2fe81e82.png",
     "index.html": "/techflix-website/index.html",
     "main.7c5542d3.css.map": "/techflix-website/static/css/main.7c5542d3.css.map",
-    "main.a699a2b7.js.map": "/techflix-website/static/js/main.a699a2b7.js.map",
+    "main.a2f01024.js.map": "/techflix-website/static/js/main.a2f01024.js.map",
     "787.fa7baaf0.chunk.js.map": "/techflix-website/static/js/787.fa7baaf0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c5542d3.css",
-    "static/js/main.a699a2b7.js"
+    "static/js/main.a2f01024.js"
   ]
 }
