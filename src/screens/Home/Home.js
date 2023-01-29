@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className='homePage'>
       <Services/>
-    <Body />
+  
     </div>
   )
 }
