@@ -9,11 +9,9 @@ const LayoutRoutes = () => {
   return (
   <>
   <Header/>
-   <Routes>
-    <Route path="/" element={ <Home/> } />
-    <Route path="/services" element={ <Services/> } />
+
+   <Home/>
  
-  </Routes>
   <Footer/>
   </>
  
