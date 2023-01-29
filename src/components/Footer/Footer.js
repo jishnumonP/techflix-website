@@ -1,8 +1,9 @@
 import React from 'react'
+import Youtube from '../../screens/Home/components/Youtube/Youtube'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'><Youtube/></div>
   )
 }
 

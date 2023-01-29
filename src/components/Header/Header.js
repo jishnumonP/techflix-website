@@ -5,10 +5,6 @@ const Header = () => {
   
   return (
     <div className="navbar">
-  <div className="header">
-    TECHFLIX
-
-  </div>
   <div className="headerTitle">
   <h1 className='heading'>
     Techflix - Future is here

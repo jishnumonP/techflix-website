@@ -1,0 +1,30 @@
+div.youtube{
+   height: auto;
+   width: auto;
+   display: inline-flex;
+   justify-content: space-between;  
+   //  width: 100px;
+   //  height: auto;
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: space-evenly  ;
+
+@media (max-width: 768px) {//This should work for Normal desktops(15 to 18 inch) only.
+display: flex;
+flex-direction: column;
+  }
+ div.heading{
+   //  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ div.shareButtons{
+    display: inline-block;
+    // flex-direction: column;
+    justify-content: space-around;
+    @media (max-width: 768px) {//This should work for Normal desktops(15 to 18 inch) only.
+      display: inline-flex;
+
+        }
+ }
+}

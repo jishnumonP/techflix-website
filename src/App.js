@@ -5,7 +5,7 @@ import LayoutRoutes from './routes/LayoutRoutes';
 
 function App() {
   return (
-<div>
+<div className='app'>
 <LayoutRoutes/>
 </div>
 

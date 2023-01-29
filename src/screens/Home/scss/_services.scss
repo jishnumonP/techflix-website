@@ -1,0 +1,21 @@
+div.servicesSection{
+width: auto;
+height: auto;
+
+    div.cardSection{
+// display: inline-flexbox;
+// justify-content: center;
+// align-items: center;
+// padding: 51px;
+margin-left: 33px;
+@media (min-width: 768px) {//This should work for Normal desktops(15 to 18 inch) only.
+  display: inline-block;
+  margin-left: 63px;
+margin-bottom: 10px;
+
+ }
+    }
+ 
+
+
+}

@@ -1,0 +1,13 @@
+div.footer {
+  background-image: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+
+
+  @media (min-width: 768px) {//This should work for Normal desktops(15 to 18 inch) only.
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+   }
+   
+
+}

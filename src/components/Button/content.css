@@ -1,0 +1,53 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    width: 100;
+    height: auto;
+}
+
+
+.rotateIcon {
+    animation: rotation 1s infinite linear;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .btn {
+    /* flex: 1 1 auto; */
+    margin: 10px;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px #eee;
+    border-radius: 10px;
+    border-color: transparent ;
+    border-width: 0;
+   
+   }
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .btn-2 {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
